@@ -50,7 +50,6 @@
   line-height: 30px;
   color: $color-moss-green;
   text-transform: uppercase;
-  /*margin-top: 34px;*/
 }
 .shop h2 {
   font-family: 'Roboto Slab';
@@ -67,7 +66,7 @@
   color: $color-greyish-brown;
   margin-top: 10px;
 }
-.buy {
+.btn_buy {
   width: 160px;
   height: 45px;
   color: $color-moss-green;
@@ -79,5 +78,60 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  
 }
+.back_to_school {
+  background-color: $color-moss-light;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.back_to_school h3 {
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color: $color-brownish-grey;
+  font-family: 'Roboto Slab';
+}
+.back_to_school h2 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $color-black;
+}
+.img_back_to_school {
+  width: 114px;
+  height: 124px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+}
+.grid_back_to_school {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.entry_grid_back_to_school {
+  margin: 10px 0;
+}
+.entry_grid_back_to_school p {
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  color: $color-black;
+  font-weight: bold;
+}
+.btn_start_now {
+  background-color: $color-moss-green;
+  width: 184px;
+  height: 47px;
+  border-radius: 23px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 20px;
+  align-items: center;
+  color: $color-white;
+}
+
