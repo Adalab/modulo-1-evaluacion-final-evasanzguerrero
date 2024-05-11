@@ -1,7 +1,6 @@
 .page__footer {
   background-color: $color-greyish-brown;
   color: $color-white;
-  
   height: 433px;
   display: flex;
   text-align: center;
@@ -16,8 +15,6 @@
 .list_menu {
   padding-top: 40px;
   list-style-type: none;
-  text-transform: uppercase;
-  line-height: 30px;
 }
 .btn_up {
   width: 45px;
@@ -32,4 +29,9 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
+.footer_link {
+  color: $color-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 30px;
+}
