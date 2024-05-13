@@ -1,16 +1,13 @@
 .page__footer {
   background-color: $color-greyish-brown;
   color: $color-white;
-  height: 433px;
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding-top: 30px ;
-  position: relative;
 }
 .footer {
   padding-top:40px;
-  z-index: 0;
   font-size: 1rem;
 }
 .list_menu {
@@ -18,15 +15,22 @@
   list-style-type: none;
   font-size: 1rem;
 }
+@keyframes jump {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
 .btn_up {
   width: 45px;
   height: 45px;
   border-radius: 50px;
   background-color: $color-white;
-  position: absolute;
+  position: relative;
   top:-18px;
-  left: 50%;
-  transform: translateX(-50%);
+  animation: jump 2s ease-in-out infinite alternate;
 }
 .footer_link {
   color: $color-white;
