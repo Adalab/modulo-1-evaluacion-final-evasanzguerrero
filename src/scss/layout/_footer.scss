@@ -32,6 +32,7 @@
   position: relative;
   top:-18px;
   animation: jump 2s ease-in-out infinite alternate;
+  
 }
 .footer_link {
   color: $color-white;
@@ -40,6 +41,11 @@
   line-height: 30px;
 }
 .heart {
-  padding-top: 10px;
+  padding: 10px 10px;
   font-size: 1rem;
+
+}
+.footer {
+  color: white;
+  padding-bottom: 20px;
 }
