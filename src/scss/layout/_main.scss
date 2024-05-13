@@ -76,6 +76,11 @@
   align-items: center;
   margin-top: 30px;
   text-decoration: none;
+  transition: transform 0.3s ease;
+}
+.btn_buy:hover {
+  transform: scale(1.1);
+  background-color:azure;
 }
 .shop {
   background-color: $color-moss-light;
