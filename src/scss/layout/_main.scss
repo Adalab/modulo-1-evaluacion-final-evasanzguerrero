@@ -88,7 +88,7 @@
 }
 .shop {
   background-color: $color-moss-light;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 10px;
 }
 .shop_subtitle {
@@ -114,6 +114,12 @@
   padding-top: 20px;
   gap: 5px;
 }
+.shop_article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .shop_img {
   width: 114px;
   height: 124px;
@@ -134,12 +140,44 @@
   width: 184px;
   height: 47px;
   border-radius: 23px;
-  margin: 0 auto;
+  margin: 20px auto;
   font-family: Roboto;
   font-size: 1.25rem;
   align-items: center;
   color: $color-white;
   text-decoration: none;
 }
+@media (min-width: 768px) {
+  .hero_title {
+    font-size: 4.6rem;
+    line-height: 100px;
+  }
+  .hero_subtitle {
+    font-size: 1.5rem;
+  }
+  .article {
+    margin: 34px 40px 25px 40px;
+  }
+  .article_subtitle {
+    font-size: 1rem;
+  }
+  .article_title {
+    font-size: 2rem;
+  }
+  .article_text {
+    font-size: 1.25rem;
+  }
+  .shop_container {
+    grid-template-columns: repeat(auto-fit, minmax(114px, 1fr));
+  }
+  .shop_title {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 1200px) {
 
-
+  .article {
+    margin: 34px 170px 25px 170px;
+  }
+  
+}
