@@ -177,4 +177,16 @@
   .article {
     margin: 34px 170px 25px 170px;
   }
+  .paragraph_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .paragraph_two {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
 }
