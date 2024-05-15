@@ -1,3 +1,11 @@
+@keyframes jump {
+  0% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
 .page__footer {
   background-color: $color-greyish-brown;
   color: $color-white;
@@ -6,7 +14,16 @@
   justify-content: center;
   flex-direction: column;
 }
-.footer {
+.btn_up {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: $color-white;
+  position: relative;
+  top:-18px;
+  animation: jump 2s ease-in-out infinite alternate;
+}
+.footer_container {
   padding-top:40px;
   font-size: 1rem;
   color: white;
@@ -17,23 +34,6 @@
   font-size: 1rem;
   margin-bottom: 20px;
   text-align: center;
-}
-@keyframes jump {
-  0% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(5px);
-  }
-}
-.btn_up {
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  background-color: $color-white;
-  position: relative;
-  top:-18px;
-  animation: jump 2s ease-in-out infinite alternate;
 }
 .footer_link {
   color: $color-white;
