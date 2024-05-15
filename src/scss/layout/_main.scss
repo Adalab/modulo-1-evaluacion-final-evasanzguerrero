@@ -147,8 +147,9 @@
 }
 .btn_start_now:hover {
   transform: scale(1.1);
-  background-color:#f3f7f6;
+  background-color:$color-white;
   color: green;
+  border: 2px solid $color-moss-green;
 }
 @media (min-width: 768px) {
   .hero_title {
