@@ -81,7 +81,8 @@
 }
 .btn_buy:hover {
   transform: scale(1.1);
-  background-color:azure;
+  background-color: $color-moss-green;
+  color: $color-white;
 }
 .shop {
   background-color: $color-moss-light;
@@ -142,11 +143,12 @@
   align-items: center;
   color: $color-white;
   text-decoration: none;
+  transition: transform 0.3s ease;
 }
 .btn_start_now:hover {
-  transform: scale(1.0);
+  transform: scale(1.1);
   background-color:#f3f7f6;
-  color: black;
+  color: green;
 }
 @media (min-width: 768px) {
   .hero_title {
